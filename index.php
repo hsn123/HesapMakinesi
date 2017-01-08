@@ -7,7 +7,7 @@
 		$sayi1 = $_POST["sayi1"];
 		$sayi2 = $_POST["sayi2"];
 		$islem = $_POST["islem"];
-		
+	
 		if($islem == "+"){
 			echo $sayi1+$sayi2;}
 		elseif($islem == "-"){
@@ -16,6 +16,8 @@
 			echo $sayi1*$sayi2;}
 		elseif($islem == "/"){
 			echo $sayi1/$sayi2;}
+	    elseif($islem == "floor"){
+			echo floor($sayi1/$sayi2);}
 	}
 ?>
  
@@ -31,6 +33,8 @@
     <option id="cıkart" value="-">Çıkartma</option>
     <option id="carp" value="*">Çarpma</option>
     <option id="bol" value="/">Bölme</option>
+    <option id="kare" value="floor">yüzdesini al</option>
+  
 </select>
 <input id="btn" type="submit" value="Hesapla!"/>
 </form>
