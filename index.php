@@ -4,9 +4,9 @@
 <div align="center" id="div1"> <br/>
 <?php
 	if($_POST){
-		$sayi1 = $_POST["sayi1"];
+		$sayi1 = intval($_POST["sayi1"]);
 		$sayi2 = intval($_POST["sayi2"]);
-		$islem = intval($_POST["islem"]);
+		$islem = $_POST["islem"];
 		
 		
 		if($islem == "+"){
