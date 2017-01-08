@@ -18,9 +18,9 @@
 		elseif($islem == "/"){
 			echo $sayi1/$sayi2;}
 	    elseif($islem == "%"){
-			echo  ($sayi1 - $sayi2) / $sayi1 * 100;}
+			echo  ($sayi1*$sayi2) /  100;}
 	} 
-?>
+?> 
  
 <br/> 
 <br/>
