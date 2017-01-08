@@ -1,6 +1,7 @@
 <html>
 <body background="duvar.jpg">
 <link rel="stylesheet" href="index.css" />
+<div align="center" id="div1"> <br/>
 <?php
 	if($_POST){
 		$sayi1 = $_POST["sayi1"];
@@ -17,18 +18,21 @@
 			echo $sayi1/$sayi2;}
 	}
 ?>
-<div align="center" id="div1">
+ 
+<br/> 
+<br/>
+<br/>
 <center>
 <form action="" method="post">
-<input type="text" name="sayi1"/><br>
-<input type="text" name="sayi2"/><br>
+<input id="sayi1" type="text" name="sayi1"/><br><br/>
+<input id="sayi2" type="text" name="sayi2"/><br><br/>
 <select name="islem">
-	<option value="+">Toplama</option>
-    <option value="-">Çıkartma</option>
-    <option value="*">Çarpma</option>
-    <option value="/">Bölme</option>
+	<option id="topla" value="+">Toplama</option>
+    <option id="cıkart" value="-">Çıkartma</option>
+    <option id="carp" value="*">Çarpma</option>
+    <option id="bol" value="/">Bölme</option>
 </select>
-<input type="submit" value="Hesapla!"/>
+<input id="btn" type="submit" value="Hesapla!"/>
 </form>
 </center>
 </div>
