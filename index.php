@@ -19,6 +19,10 @@
 			echo $sayi1/$sayi2;}
 	    elseif($islem == "%"){
 			echo  ($sayi1*$sayi2) /  100;}
+		elseif($islem == ""){
+			echo pow ($sayi1,$sayi2);}
+
+			
 	} 
 ?> 
  
@@ -35,7 +39,7 @@
     <option id="carp" value="*">Çarpma</option>
     <option id="bol" value="/">Bölme</option>
     <option id="yüzde" value="%">yüzdesini al</option>
-  
+   <option id="ust" value="")>Üst Al</option>
 </select>
 <input id="btn" type="submit" value="Hesapla"/>
 </form>
