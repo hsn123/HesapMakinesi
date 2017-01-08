@@ -39,7 +39,7 @@
     <option id="carp" value="*">Çarpma</option>
     <option id="bol" value="/">Bölme</option>
     <option id="yüzde" value="%">yüzdesini al</option>
-   <option id="ust" value="")>Üst Al</option>
+   <option id="ust" value="")>Karesini Al</option>
 </select>
 <input id="btn" type="submit" value="Hesapla"/>
 </form>
